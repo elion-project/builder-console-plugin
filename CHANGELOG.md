@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/elion-project/builder-console-plugin/compare/v0.0.1...v1.0.1) (2023-06-14)
+
+
+### Bug Fixes
+
+* Fix params ([8147a9a](https://github.com/elion-project/builder-console-plugin/commit/8147a9a852777f465b1aa491357143eba6a77002))
+
 ### [0.0.1](https://github.com/elion-project/builder-console-plugin/compare/v0.0.0...v0.0.1) (2023-06-13)
 
 

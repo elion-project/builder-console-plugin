@@ -1,6 +1,6 @@
 {
     "name": "@node-elion/builder-console-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Add ability to modify console output from app ",
     "main": "lib/index.js",
     "scripts": {
