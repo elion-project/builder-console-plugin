@@ -1,6 +1,8 @@
 [![MIT License](https://img.shields.io/npm/l/@node-elion/builder-console-plugin.svg?)](https://www.npmjs.com/package/@node-elion/builder-console-plugin)
 [![View this project on NPM](https://img.shields.io/npm/v/@node-elion/builder-console-plugin.svg)](https://npmjs.org/package/@node-elion/builder-console-plugin)
 [![View this project on NPM](https://img.shields.io/npm/dm/@node-elion/builder-console-plugin.svg)](https://npmjs.org/package/@node-elion/builder-console-plugin)
+[![Known Vulnerabilities](https://snyk.io/test/github/elion-project/builder-console-plugin/badge.svg)](https://snyk.io/test/github/elion-project/builder-console-plugin)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=elion-project_builder-console-plugin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=elion-project_builder-console-plugin)
 
 # @node-elion/builder-console-plugin
 
