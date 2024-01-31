@@ -4,7 +4,10 @@
     "description": "Add ability to modify console output from app",
     "main": "lib/index.js",
     "scripts": {
-        "release": "npx standard-version"
+        "release": "npx standard-version",
+        "release:jdi": "npm run release && npm run release:doPush",
+        "release:doPush": "git push --follow-tags origin main && npm run release:publish",
+        "release:publish": "npm publish"
     },
     "repository": {
         "type": "git",
@@ -17,16 +20,16 @@
     },
     "homepage": "https://github.com/elion-project/builder-console-plugin#readme",
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.11.0",
-        "@typescript-eslint/parser": "^6.11.0",
-        "eslint": "^8.54.0",
+        "@typescript-eslint/eslint-plugin": "^6.20.0",
+        "@typescript-eslint/parser": "^6.20.0",
+        "eslint": "^8.56.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-airbnb-typescript": "^17.1.0",
-        "eslint-config-prettier": "^9.0.0",
-        "eslint-plugin-import": "^2.29.0",
-        "eslint-plugin-jest": "^27.6.0",
-        "eslint-plugin-prettier": "^5.0.1",
-        "npm-check-updates": "^16.14.11"
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jest": "^27.6.3",
+        "eslint-plugin-prettier": "^5.1.3",
+        "npm-check-updates": "^16.14.14"
     },
     "peerDependencies": {
         "@node-elion/builder": "5.x"
